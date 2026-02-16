@@ -49,12 +49,11 @@ Key developments to watch in neuromorphic computing:
     <td><a href="http://www.garrickorchard.com/datasets/cifar10dvs">Download</a></td>
   </tr>
   <tr>
-    <td><strong>DVS128 Gesture</strong></td>
+    <td><strong>DVS128 Gesture - IBM</strong></td>
     <td>Hand and arm gesture recognition</td>
     <td>11 gesture classes, 1,342 recordings</td>
     <td><a href="https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8">Download</a></td>
   </tr>
-  <tr>
     <td><strong>N-Caltech101</strong></td>
     <td>Event-based object recognition</td>
     <td>101 object categories</td>
