@@ -1,4 +1,4 @@
-### Neuromorphic Computation Resources
+### Neuromorphic computation resources
 
 > A comprehensive collection of datasets, benchmarks, and resources for neuromorphic computing research. Organized by application areas including vision, audio processing, robotics, and brain-inspired learning.
 
@@ -10,9 +10,7 @@
 
 ---
 
-## ➕ About Neuromorphic Computing
-
-### Neuromorphic Horizon
+## About neuromorphic computing
 
 Key developments to watch in neuromorphic computing:
 
@@ -27,9 +25,9 @@ Key developments to watch in neuromorphic computing:
 
 ---
 
-## 🗂️ Datasets by Research Area
+## 🗂️ Datasets by area
 
-### 👁️ Neuromorphic Vision
+### 👁️ Vision
 
 <table>
   <tr>
@@ -94,7 +92,7 @@ Key developments to watch in neuromorphic computing:
   </tr>
 </table>
 
-### 🔊 Neuromorphic Audio
+### 🔊 Audio
 
 <table>
   <tr>
@@ -129,7 +127,7 @@ Key developments to watch in neuromorphic computing:
   </tr>
 </table>
 
-### 🤖 Neuromorphic Robotics & Control
+### 🤖 Robotics & control
 
 <table>
   <tr>
@@ -199,7 +197,7 @@ Key developments to watch in neuromorphic computing:
   </tr>
 </table>
 
-### 🎯 Benchmarks & Multi-Modal
+### 🎯 Benchmarks & multi-modal
 
 <table>
   <tr>
@@ -228,7 +226,7 @@ Key developments to watch in neuromorphic computing:
   </tr>
 </table>
 
-## 📬 Useful Resources
+## 📬 More 
 
 ### Newsletters & Communities & Events
 
@@ -236,7 +234,7 @@ Key developments to watch in neuromorphic computing:
 2. **[Events from NeuroPAC Calendar](https://www.neuropac.info/calendar/list/)** - ;calendar list with workshops, conferences, summer schools.
 3. **[Neuromorphic Job Board](https://forum.neuromorphs.net/t/job-openings)** -Job openings 
 
-### Key Research Groups & Resources
+### Key research groups
 
 1. **Telluride Workshop** - Annual neuromorphic engineering workshop
 2. **CapoCaccia Workshop** - Cognitive neuromorphic engineering
