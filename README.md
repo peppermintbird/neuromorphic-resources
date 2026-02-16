@@ -225,6 +225,97 @@ Key developments to watch in neuromorphic computing:
   </tr>
 </table>
 
+### 🧠 Neuromorphic Chips
+<table> 
+    <tr> 
+      <th>Chip / System</th> 
+      <th>Access model</th> 
+      <th>Power (approx.)</th> 
+      <th>On-chip learning</th> 
+      <th>Deployment</th> 
+    </tr> 
+    <tr> 
+      <td><strong>Loihi 2</strong></td> 
+      <td>Research (INRC access)</td> 
+      <td>~1–5 W per chip</td> 
+      <td>Yes (programmable plasticity)</td> 
+      <td>Advanced research, adaptive robotics</td> 
+    </tr> 
+    <tr> 
+      <td><strong>SpiNNaker2</strong></td> 
+      <td>Research community</td> 
+      <td>Board-level scalable</td> 
+      <td>Software-defined</td> 
+      <td>Large-scale SNN simulation</td> 
+    </tr> 
+    <tr> 
+      <td><strong>TrueNorth</strong></td> 
+      <td>Research (limited availability)</td> 
+      <td>~70 mW per chip</td> 
+      <td>No (offline training)</td> 
+      <td>Historical milestone, low-power inference</td> 
+    </tr> 
+    <tr> 
+      <td><strong>BrainScaleS-2</strong></td> 
+      <td>Research (EBRAINS access)</td> 
+      <td>Higher (accelerated analog)</td> 
+      <td>Yes (analog plasticity)</td> 
+      <td>Neuroscience + accelerated experiments</td> 
+    </tr> 
+    <tr> 
+      <td><strong>DYNAP-SE2</strong></td> 
+      <td>Commercial + research</td> 
+      <td>Ultra-low power (mW range)</td> 
+      <td>Yes (local learning)</td> 
+      <td>Embedded robotics & edge systems</td> 
+    </tr> 
+    <tr> 
+      <td><strong>Akida</strong></td> 
+      <td>Commercial</td> 
+      <td>mW–100 mW range</td> 
+      <td>Yes (edge incremental learning)</td> 
+      <td>Industrial edge AI</td> 
+    </tr> 
+</table>
+
+### 📷 Event cameras 
+<table> 
+  <tr> 
+    <th>Camera</th> 
+    <th>Access model</th> 
+    <th>Power (approx.)</th> 
+    <th>Resolution</th> 
+    <th>Deployment</th> 
+  </tr> 
+  <tr> 
+    <td><strong>DAVIS346</strong></td> 
+    <td>Commercial</td> 
+    <td>~200 mW</td> 
+    <td>346 × 260</td> 
+    <td>Research + robotics prototyping</td> 
+  </tr> 
+  <tr> 
+    <td><strong>DVXplorer</strong></td> 
+    <td>Commercial</td> <td>Low-power</td> 
+    <td>640 × 480</td> 
+    <td>High-speed robotics & drones</td> 
+  </tr> 
+  <tr> 
+    <td><strong>Prophesee Gen4</strong></td> 
+    <td>Commercial / automotive</td> 
+    <td>Automotive-optimized</td> 
+    <td>1280 × 720</td> 
+    <td>ADAS & autonomous systems</td> 
+  </tr> 
+  <tr> 
+    <td><strong>Sony IMX636</strong></td> 
+    <td>Commercial</td> 
+    <td>Low-power</td> 
+    <td>1280 × 720</td> 
+    <td>Industrial + embedded vision</td> 
+  </tr> 
+</table>
+
 ## 📬 More 
 
 ### Newsletters & Communities & Events
