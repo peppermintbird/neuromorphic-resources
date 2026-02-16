@@ -161,7 +161,7 @@ Key developments to watch in neuromorphic computing:
   </tr>
 </table>
 
-### 🧠 Brain-Inspired Learning & Neuroscience
+### 🧠 Brain-inspired learning & neuroscience
 
 <table>
   <tr>
@@ -189,7 +189,7 @@ Key developments to watch in neuromorphic computing:
     <td><a href="https://ebrains.eu/">EBRAINS</a></td>
   </tr>
   <tr>
-    <td><strong>SpiNNaker Benchmarks</strong></td>
+    <td><strong>SpiNNaker benchmarks</strong></td>
     <td>Large-scale SNN simulations</td>
     <td>Benchmark datasets for scalability</td>
     <td><a href="https://github.com/SpiNNakerManchester">GitHub</a></td>
@@ -224,6 +224,8 @@ Key developments to watch in neuromorphic computing:
     <td><a href="https://github.com/uzh-rpg/event-based_vision_resources">GitHub</a></td>
   </tr>
 </table>
+
+## ⚙️ Hardware
 
 ### 🧠 Neuromorphic Chips
 <table> 
