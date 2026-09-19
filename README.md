@@ -54,6 +54,7 @@ Key developments to watch in neuromorphic computing:
     <td>11 gesture classes, 1,342 recordings</td>
     <td><a href="https://ibm.ent.box.com/s/3hiq58ww1pbbjrinh367ykfdf60xsfm8">Download</a></td>
   </tr>
+  <tr>
     <td><strong>N-Caltech101</strong></td>
     <td>Event-based object recognition</td>
     <td>101 object categories</td>
@@ -88,6 +89,35 @@ Key developments to watch in neuromorphic computing:
     <td>Event-based outdoor scenes</td>
     <td>Natural scenes dataset</td>
     <td><a href="http://www2.imse-cnm.csic.es/neuromorphs/index.php/DVS-OUTLAB">Download</a></td>
+  </tr>
+</table>
+
+### 🧩 Segmentation
+
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Description</th>
+    <th>Details</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><strong>EV-SegNet</strong></td>
+    <td>First event-based semantic segmentation benchmark (CVPRW 2019)</td>
+    <td>Semantic labels for DDD17 driving sequences</td>
+    <td><a href="https://github.com/Shathe/Ev-SegNet">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>ESS (uzh-rpg)</strong></td>
+    <td>Event-based semantic segmentation learned from still images (ECCV 2022)</td>
+    <td>Introduces DSEC-Semantic; also uses DDD17</td>
+    <td><a href="https://github.com/uzh-rpg/ess">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>OpenESS</strong></td>
+    <td>Open-vocabulary event-based semantic segmentation (CVPR 2024)</td>
+    <td>Annotation-free; evaluated on DDD17 and DSEC-Semantic</td>
+    <td><a href="https://github.com/ldkong1205/OpenESS">GitHub</a></td>
   </tr>
 </table>
 
