@@ -156,6 +156,136 @@ Key developments to watch in neuromorphic computing:
   </tr>
 </table>
 
+### 🤟 Sign language
+
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Description</th>
+    <th>Details</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><strong>SL-Animals-DVS</strong></td>
+    <td>Spanish sign language signs for animals, recorded with a DVS</td>
+    <td>~1,100 samples, 59 subjects, 19 signs; SNN baselines (SLAYER, STBP, DECOLLE)</td>
+    <td><a href="http://www2.imse-cnm.csic.es/neuromorphs/index.php/SL-ANIMALS-DVS-Database">Download</a></td>
+  </tr>
+  <tr>
+    <td><strong>ASL-DVS</strong></td>
+    <td>American Sign Language static handshapes (letters A–Y, no J)</td>
+    <td>24 classes, 100,800 samples, DAVIS240c</td>
+    <td><a href="https://github.com/PIX2NVS/NVS2Graph">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>N-WLASL</strong></td>
+    <td>Event-based re-recording of WLASL (word-level ASL) from a monitor</td>
+    <td>21,093 samples, 2,000 glosses, DAVIS346</td>
+    <td><a href="https://ieee-dataport.org/documents/n-wlasl">Download</a></td>
+  </tr>
+  <tr>
+    <td><strong>DVS_Sign / DVS_Sign_v2e</strong></td>
+    <td>Sign gestures for human–robot interaction, real DVS + v2e-converted</td>
+    <td>5 categories (verbs, quantifiers, position, things, people); SNN (STBP)</td>
+    <td><a href="https://www.mdpi.com/2079-9292/12/4/786">Paper</a></td>
+  </tr>
+  <tr>
+    <td><strong>EvSign (ECCV 2024)</strong></td>
+    <td>Continuous sign language recognition and translation with events</td>
+    <td>Chinese SL, 6,773 videos, 1,387 glosses, gloss + text labels</td>
+    <td><a href="https://github.com/zhang-pengyu/EVSign">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>Event-CSL (OpenESL)</strong></td>
+    <td>High-definition event-based sign language translation benchmark</td>
+    <td>14,827 videos, Prophesee EVK4-HD 1280×720, indoor + outdoor</td>
+    <td><a href="https://github.com/Event-AHU/OpenESL">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>Spike-SLR (BMVC 2024)</strong></td>
+    <td>Energy-efficient spiking transformer for event-based sign recognition</td>
+    <td>Method; evaluated on SL-Animals-DVS</td>
+    <td><a href="https://bmvc2024.org/proceedings/493/">Paper</a></td>
+  </tr>
+  <tr>
+    <td><strong>Awesome-Sign-Language</strong></td>
+    <td>Curated paper list for sign language recognition and translation</td>
+    <td>Includes LLM-based and gloss-free translation work</td>
+    <td><a href="https://github.com/ZechengLi19/Awesome-Sign-Language">GitHub</a></td>
+  </tr>
+</table>
+
+### 💬 Language models
+
+<table>
+  <tr>
+    <th>Resource</th>
+    <th>Description</th>
+    <th>Details</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><strong>SpikeGPT</strong></td>
+    <td>Generative language model with binary, event-driven spiking activations</td>
+    <td>RWKV-based, 46M and 216M parameters</td>
+    <td><a href="https://github.com/ridgerchu/SpikeGPT">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>SpikeLM (ICML 2024)</strong></td>
+    <td>Fully spike-driven general language modeling</td>
+    <td>Elastic bi-spiking mechanism; discriminative + generative tasks</td>
+    <td><a href="https://github.com/Xingrun-Xing/SpikeLM">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>SpikeLLM (ICLR 2025)</strong></td>
+    <td>Scaling SNNs to large language models via saliency-based spiking</td>
+    <td>7–70B parameter LLMs</td>
+    <td><a href="https://github.com/Xingrun-Xing2/SpikeLLM">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>SpikingBrain</strong></td>
+    <td>Spiking brain-inspired large models for long-context efficiency</td>
+    <td>7B and 76B; hybrid linear attention, MoE, spike coding; weights released</td>
+    <td><a href="https://github.com/BICLab/SpikingBrain-7B">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>SpikingBERT (AAAI 2024)</strong></td>
+    <td>Spiking BERT trained by distillation with implicit differentiation</td>
+    <td>Encoder-only; evaluated on GLUE</td>
+    <td><a href="https://github.com/NeuroCompLab-psu/SpikingBERT">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>SpikeBERT</strong></td>
+    <td>Language Spikformer learned from BERT via knowledge distillation</td>
+    <td>Two-stage pre-training + task-specific distillation</td>
+    <td><a href="https://github.com/Lvchangze/SpikeBERT">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>MatMul-free LM</strong></td>
+    <td>Scalable matmul-free language model, mapped to neuromorphic hardware</td>
+    <td>Ternary weights; runs on Intel Loihi 2</td>
+    <td><a href="https://arxiv.org/abs/2406.02528">Paper</a></td>
+  </tr>
+  <tr>
+    <td><strong>LLMs on Loihi 2</strong></td>
+    <td>Neuromorphic principles for efficient LLMs on Intel Loihi 2</td>
+    <td>370M model; ~3× throughput, 2× less energy vs. edge GPU</td>
+    <td><a href="https://arxiv.org/abs/2503.18002">Paper</a></td>
+  </tr>
+  <tr>
+    <td><strong>event2vec</strong></td>
+    <td>Word2vec-style embedding of events, bridging event data and NLP</td>
+    <td>Evaluated on ASL-DVS; aimed at event input to LLMs</td>
+    <td><a href="https://github.com/fangwei123456/event2vec">GitHub</a></td>
+  </tr>
+  <tr>
+    <td><strong>Awesome-Spiking-Neural-Networks</strong></td>
+    <td>Maintained SNN paper list, including spiking LLMs</td>
+    <td>Updated with 2026 conference papers</td>
+    <td><a href="https://github.com/TheBrainLab/Awesome-Spiking-Neural-Networks">GitHub</a></td>
+  </tr>
+</table>
+
 ### 🤖 Robotics & control
 
 <table>
