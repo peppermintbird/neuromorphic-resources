@@ -1,6 +1,6 @@
 ### Neuromorphic computation resources
 
-> A comprehensive collection of datasets, benchmarks, and resources for neuromorphic computing research. Organized by application areas including vision, audio processing, robotics, and brain-inspired learning.
+> A collection of datasets, benchmarks, and resources for neuromorphic computing research. Organized by application areas including vision, audio processing, robotics, and brain-inspired learning.
 
 <table>
   <tr>
